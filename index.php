@@ -1,19 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-	<!-- CSS only -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-<link rel="stylesheet" href="css/bulma.min.css">   
-<link rel="stylesheet" href="css/styles.css">
-
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-sb-admin-2/4.0.7/css/sb-admin-2.min.css">
-<script src="https://kit.fontawesome.com/8f2b419957.js" crossorigin="anonymous"></script>
-
-<!-- JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <?php include 'particiones_globales/particion_head/head.html';?>
+  <link rel="stylesheet" href="css/styles.css">
 	<title>prueba</title>
 </head>
   <!------------------------- Navbar content ------------------------->
@@ -115,7 +104,7 @@
 	        </h6>
 	        <a class="dropdown-item d-flex align-items-center" href="#">
 	          <div class="dropdown-list-image mr-3">
-	            <img class="rounded-circle" src="https://source.unsplash.com/fn_BT9fwg_E/30x30" alt="">
+	            <img class="rounded-circle" src="https://source.unsplash.com/fn_BT9fwg_E/30x30" alt="" >
 	            <div class="status-indicator bg-success"></div>
 	          </div>
 	          <div class="font-weight-bold">
@@ -139,7 +128,7 @@
 	      </a>
 	      <!-- Dropdown - User Information -->
 	      <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-	        <a class="dropdown-item" href="#">
+	        <a class="dropdown-item" href="login.php">
 	          <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
 	          Perfil
 	        </a>
@@ -158,7 +147,7 @@
 	        </a>
 	      </div>
 	    </li>
-
+      <!--x-- /Nav Item - User Information -->
 	</ul>
   </div>
   
@@ -168,13 +157,14 @@
   <!-----------x-------------- Navbar content --------------x----------->
 <body>
 
+<!-- listado productos  -->
 	<div class="container">
         <div class="columns is-multiline">
             <div class="column is-full-mobile">
                 <div class="columns is-centered is-mobile is-multiline">
                     <!-- 1 Sección de fotografías -->
                     <div class="column is-half column-full">
-                        <div class="card">
+                        <div class="card"> 
                             <span class="price">$89.99</span>
                             <img src="img/item-1.png" alt="">
                             <div class="card-info">
@@ -202,9 +192,9 @@
                                     100%
                                     cotton.</p>
                                 <div class="card-buttons">
-                                    <a href="#" class="btn btn--mini-rounded"><i class="zmdi zmdi-shopping-cart"></i></a>
-                                    <a href="#" class="btn btn--mini-rounded"><i class="zmdi zmdi-favorite-outline"></i></a>
-                                    <a href="producto.html" class="btn btn--mini-rounded"><i class="zmdi zmdi-eye"></i></a>
+                                <a href="#" class="btn btn--mini-rounded"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#" class="btn btn--mini-rounded"><i class="fas fa-heart"></i></a>
+                                <a href="producto.html" class="btn btn--mini-rounded"><i class="fas fa-eye"></i></i></a>
                                 </div>
                             </div>
                         </div>
@@ -222,10 +212,9 @@
                                     100%
                                     cotton.</p>
                                 <div class="card-buttons">
-                                    <a href="#" class="btn btn--mini-rounded"><i class="zmdi zmdi-shopping-cart"></i></a>
-                                    <a href="#" class="btn btn--mini-rounded"><i class="zmdi zmdi-favorite-outline"></i></a>
-                                    <a href="producto.html" class="btn btn--mini-rounded"><i class="zmdi zmdi-eye"></i></a>
-                                </div>
+                                <a href="#" class="btn btn--mini-rounded"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#" class="btn btn--mini-rounded"><i class="fas fa-heart"></i></a>
+                                <a href="producto.html" class="btn btn--mini-rounded"><i class="fas fa-eye"></i></i></a>                               </div>
                             </div>
                         </div>
                     </div>
@@ -245,10 +234,9 @@
                                     100%
                                     cotton.</p>
                                 <div class="card-buttons">
-                                    <a href="#" class="btn btn--mini-rounded"><i class="zmdi zmdi-shopping-cart"></i></a>
-                                    <a href="#" class="btn btn--mini-rounded"><i class="zmdi zmdi-favorite-outline"></i></a>
-                                    <a href="producto.html" class="btn btn--mini-rounded"><i class="zmdi zmdi-eye"></i></a>
-                                </div>
+                                <a href="#" class="btn btn--mini-rounded"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#" class="btn btn--mini-rounded"><i class="fas fa-heart"></i></a>
+                                <a href="producto.html" class="btn btn--mini-rounded"><i class="fas fa-eye"></i></i></a> </div>
                             </div>
                         </div>
                     </div>
@@ -263,10 +251,9 @@
                                     100%
                                     cotton.</p>
                                 <div class="card-buttons">
-                                    <a href="#" class="btn btn--mini-rounded"><i class="zmdi zmdi-shopping-cart"></i></a>
-                                    <a href="#" class="btn btn--mini-rounded"><i class="zmdi zmdi-favorite-outline"></i></a>
-                                    <a href="producto.html" class="btn btn--mini-rounded"><i class="zmdi zmdi-eye"></i></a>
-                                </div>
+                                <a href="#" class="btn btn--mini-rounded"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="#" class="btn btn--mini-rounded"><i class="fas fa-heart"></i></a>
+                                <a href="producto.html" class="btn btn--mini-rounded"><i class="fas fa-eye"></i></i></a>   </div>
                             </div>
                         </div>
                     </div>
@@ -281,17 +268,79 @@
                                     100%
                                     cotton.</p>
                                 <div class="card-buttons">
-                                    <a href="#" class="btn btn--mini-rounded"><i class="zmdi zmdi-shopping-cart"></i></a>
-                                    <a href="#" class="btn btn--mini-rounded"><i class="zmdi zmdi-favorite-outline"></i></a>
-                                    <a href="producto.html" class="btn btn--mini-rounded"><i class="zmdi zmdi-eye"></i></a>
+                                  <a href="#" class="btn btn--mini-rounded"><i class="fas fa-shopping-cart"></i></a>
+                                  <a href="#" class="btn btn--mini-rounded"><i class="fas fa-heart"></i></a>
+                                  <a href="producto.html" class="btn btn--mini-rounded"><i class="fas fa-eye"></i></i></a></div>
                                 </div>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <hr>
+    <hr>
+    <div class="container-fluid">
+      <div class="site-slider ">
+        <div class=" slider-one text-center">
+          
+          <div class=" card col-md-2 product pt-md-2 pt-4">
+            <img class="card-img-top" src="img/item-1.png" alt="banner1"
+            />
+            <div class="card-body">
+              <h4 class="has-text-black has-text-centered has-text-weight-bold">POLO $89.99 </h4>
+              <p class="has-text-centered">Polo clasico 100% cotton.</p>
+              <div class="card-buttons">
+                  <a href="#" class="btn btn--mini-rounded"><i class="fas fa-shopping-cart"></i></a>
+                  <a href="#" class="btn btn--mini-rounded"><i class="fas fa-heart"></i></a>
+                  <a href="producto.html" class="btn btn--mini-rounded"><i class="fas fa-eye"></i></i></a>
+              </div>
+          </div>
+            <!-- <span  class=" card-text border site-btn btn-span">Producto n1 dsasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasadsad
+              dsadsadsadsds
+              sdad</span> -->
+          </div>
+          <div class="card col-md-2 product pt-md-2 pt-4">
+            <img src="img/item-2.png" alt="banner2"/>
+            <span class="border site-btn btn-span">Producto n2 </span>
+          </div>        
+          <div class="card col-md-2 product pt-md-2 pt-4">
+            <img src="img/item-5.png" alt="banner2"/>
+            <span class="border site-btn btn-span">Producto n5 </span>
+          </div>
+          <div class="card col-md-2 product pt-md-2 pt-4">
+            <img src="img/item-6.png" alt="banner6"/>
+            <span class="border site-btn btn-span">Producto n6 </span>
+          </div>
+          <div class="card col-md-2 product pt-md-2 pt-4">
+            <img src="img/item-7.png" alt="banner7"/>
+            <span class="border site-btn btn-span">Producto n7 </span>
+          </div>
+          <div class="card col-md-2 product pt-md-2 pt-4">
+            <img src="img/item-7.png" alt="banner7"/>
+            <span class="border site-btn btn-span">Producto n8 </span>
+          </div>       
+        </div>
+        <div class="slider-btn">
+          <span class="prev position-top">
+            <i class="fas fa-chevron-left"></i>
+          </span>
+          <span class="next position-top right-0">
+            <i class="fas fa-chevron-right"></i></span>
+        </div>
+      </div>
+    </div>
 </body>
+<hr>
+<div>hola mundo </div>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, itaque. A nam porro temporibus saepe voluptas suscipit necessitatibus excepturi laudantium corporis, quis labore voluptates, ullam quia aut recusandae rerum tempore?
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-sb-admin-2/4.0.7/js/sb-admin-2.min.js" type="text/javascript"></script>
+<!--slich slider javascript-->
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/script.js"></script>
 </html>
