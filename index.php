@@ -14,7 +14,7 @@
 
 <nav class="navbar navbar-expand navbar-dark bg-primary topbar mb-4 static-top shadow">
  
-  <a class="navbar-brand black" href="#">Carrito de compras</a>
+  <a class="navbar-brand black" href="#">Prueba para comprar</a>
   <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#display_menu" aria-controls="display_menu" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button> -->
@@ -291,9 +291,9 @@
               <h4 class="has-text-black has-text-centered has-text-weight-bold">POLO $89.99 </h4>
               <p class="has-text-centered">Polo clasico 100% cotton.</p>
               <div class="card-buttons">
-                  <a href="#" class="btn btn--mini-rounded"><i class="fas fa-shopping-cart"></i></a>
-                  <a href="#" class="btn btn--mini-rounded"><i class="fas fa-heart"></i></a>
-                  <a href="producto.html" class="btn btn--mini-rounded"><i class="fas fa-eye"></i></i></a>
+                  <a href="producto.php" class="btn btn--mini-rounded"><i class="fas fa-shopping-cart"></i></a>
+                  <a href="producto.php" class="btn btn--mini-rounded"><i class="fas fa-heart"></i></a>
+                  <a href="producto.php" class="btn btn--mini-rounded"><i class="fas fa-eye"></i></i></a>
               </div>
           </div>
             <!-- <span  class=" card-text border site-btn btn-span">Producto n1 dsasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasasadsad

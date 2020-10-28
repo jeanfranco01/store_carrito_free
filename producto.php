@@ -155,24 +155,27 @@
                 <img src="img/item-6.png" alt="">
             </div>
             <div class=" col-sm-6 col-lg-8 descripcion_info">
-                <div class="price-seller" style="">
-                    <!--<div><vtex.cmc:skuPrice></vtex></div>-->
-                    <div class="price-seller-cnt">
-                        <div class="js-eof"></div>
-                        <div class="price js-price-price tam">
-                            <span class="flag">-11%</span>
-                            <i>Oferta</i><em>S/ </em><span>7,980</span><sup></sup> 
+                <div class="">(nombre del producto)</div>
+                <div class="precio-seller" style="">
+                    <div class="precio-seller-cnt">
+                        <div class="precio tam">
+                            <i>Oferta</i>
+                            <em>S/ </em>
+                            <span>7,980</span>
                         </div>
-                        <div class="listprice js-price-listprice">
+                        <div class="listaprecio ">
                             <i>Regular</i>
                             <em>S/ </em>
                             <span>8,990</span>
-                            <sup></sup>
                         </div>
                     </div>
-                    <div class="flag-wrapper ficha">
-                        <p class="flag nuevo---lo-nuevo---landing">
-                            nuevo - Lo Nuevo - Landing
+                    <div class="flag-wrapper ">
+                        <p class="flag desc_producto">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing 
+                            elit. Praesentium, asperiores ipsa. Laudantium velit 
+                            illo, voluptatem reprehenderit, itaque sit nostrum quia,
+                             similique dicta porro quos repudiandae ad officia hic 
+                             quibusdam eos!
                         </p>
                     </div>
                 </div>
@@ -180,94 +183,17 @@
                 <div class="controllers-seller">
                     <div class="controllers-seller-cnt">
                         <div class="ctrl-inner">
-                            <div class="tooltip-stock" style="display: none;">
-                            <i class="ico-warning"></i>
-                            <span class="txt"> Has alcanzado el límite disponible para este producto.
-                                <span class="cantUndStock"></span>
-                                <div class="calloutDown">
-                                    <div class="calloutDown2">                                        
-                                    </div>
-                                </div>
-                            </span>
-                        </div>
-                        <div class="popupaddm2 js-popupaddm2 rd gh-close-modal" style="display:none">
-                        <div class="ppup">
-                            <div class="gtexto">
-                                <span class="text1">
-                                    Sé prevenido, añade un 10%
-                                </span>
-                                <span class="text2">
-                                    Añadir 10% para zócalos, perdidas y rupturas.
-                                </span>
-                            </div>
-                            <div class="g-btns">
-                                <a href="javascript:;" class="solo-prod js-addtocart -pu gh-enlace v2">No, gracias</a>
-                                <a href="javascript:;" class="agregarpor js-agregarpor -pu gh-btn">Agregar 10%</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="popupaddm3 js-popupaddm2 rd gh-close-modal" style="display:none">
-                        <div class="ppup">
-                            <div class="gtexto">
-                                <span class="text1">Importante:</span>
-                                <span class="text2">Este producto cuenta con variantes de color y/o diseño que será seleccionado aleatoriamente en base a su disponibilidad.</span>
-                            </div>
-                            <div class="g-btns">
-                                <a href="javascript:;" class="solo-prod js-agregarpor -pu gh-enlace v2">Cancelar</a>
-                                <a href="javascript:;" class="agregarpor js-agregarpor -pu gh-btn">Aceptar</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="popupaddm4 js-popupaddm2 rd gh-close-modal" style="display:none">
-                        <div class="ppup">
-                            <div class="gtexto">
-                                <span class="text1">Importante:</span>
-                                <span class="text2">Recuerda que este producto es a pedido y no se aceptan cambios ni devoluciones</span>
-                            </div>
-                            <div class="g-btns">
-                                <a href="javascript:;" class="solo-prod js-agregarpor -pu gh-enlace v2">Cancelar</a>
-                                <a href="javascript:;" class="agregarpor js-agregarpor -pu gh-btn">Aceptar</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gh-popup-add gh-popup-add-mxn js-popup-add-mxn rd gh-close-modal" style="display:none">
-                        <div class="ppup">
-                            <div class="gtexto">
-                                <span class="text1">APROVECHA EL 
-                                    <p class="flag"></p>
-                                </span>
-                                <span class="text2">Te <em class="js-text-add-mxn"></em>
-                                 para acceder a la promoción. <em class="js-text-mxn"></em>
-                                </span>
-                            </div>
-                            <div class="g-btns">
-                                <a href="javascript:;" class="solo-prod js-agregarpor -pu gh-enlace v2">No, gracias</a>
-                                <a href="javascript:;" class="agregarpor js-agregarpor -pu gh-btn">Agregar promo</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tooltip_mc js-tooltip_mc">
-                        <span class="cant_caja">1 Caja</span>
-                            <div class="down-org">
-                                <div class="down_int-org">                                    
+                            <div class="tooltip_mc form-inline">
+                                <div class="cantidad">
+                                    <button class="btn_cantidad btn " type="button" >+</button>
+                                    <input class="form-control mb-1 mr-sm-1" type="number"style="width:30%;" value="1">
+                                    <button class="btn_cantidad btn " type="button">-</button>
                                 </div>
                             </div>
+                            <button href="index.php" type="button" class="btn btn-danger btn-sm ">
+                                <i class="fas fa-cart-plus"></i> COMPRAR
+                            </button>
                         </div>
-                        <div class="ctrl-menosmas cantidad">
-                            <button class="btn_cantidad js-menos icons-menos" type="button" aria-label="Disminuir"></button>
-                            <input class="input_cant js-cantProdFicha" type="number" value="1">
-                                <div class="wp_mc js-wp_mc">
-                                    <input class="input_cant_mc js-cantProdFichaMC" id="txtNumMetraje" type="text" value="1">
-                                    <span class="t_m2">m²</span>
-                                </div>
-                                <button class="btn_cantidad js-mas icons-mas" type="button" aria-label="Aumentar"></button>
-                            </div>
-                        </div>
-                        <button class="js-addtocart gh-btn v2 v3" type="button">
-                            <span class="preload-cart"></span>
-                            <span class="icons-cart"></span>
-                            <em>Agregar</em>
-                        </button>
                     </div>
                 </div>
             </div>
